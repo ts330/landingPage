@@ -1,0 +1,20 @@
+.navbar{
+  background-color:#00262d;
+  font-size: 25px;
+}
+.navbar-brand{
+  font-size: 35px;
+}
+
+a{
+  color: white;
+}
+a:hover{
+  color: #0d6efd;
+}
+
+.navbar-nav{
+--bs-nav-link-color: white;
+--bs-nav-link-hover-color: white;
+--bs-nav-link-disabled-color: white;
+}
