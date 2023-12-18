@@ -1,20 +1,47 @@
 .navbar{
-  background-color:#00262d;
+  background-color:#013d46;
   font-size: 25px;
+  color: white;
 }
 .navbar-brand{
   font-size: 35px;
+  color:white;
+  float: left;
 }
 
-a{
+.topnav a{
   color: white;
 }
-a:hover{
-  color: #0d6efd;
+
+.nav-item a:active{
+  color: #b5e64b;
 }
 
-.navbar-nav{
+.navbar-nav .nav-link.active{
+  color: #b5e64b;
+}
+
+.nav-item{
+  margin: 10px;
+
+}
+
+button{
+  height: 15%;
+  width: 40%;
+  color: black;
+  background-color: #beef4a;
+  outline-color: #beef4a;
+}
+button:hover{
+  outline: auto;
+  outline-width: 4px;
+  outline-color: #beef4a;
+  background: transparent;
+}
+
+/* .navbar-nav{
 --bs-nav-link-color: white;
 --bs-nav-link-hover-color: white;
 --bs-nav-link-disabled-color: white;
-}
+} */

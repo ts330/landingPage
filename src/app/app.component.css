@@ -1,42 +1,48 @@
 div{
-  font-family: sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin-top: 20px;
   margin: 2px;
   color: white;
   /* border-style: dotted; */
 }
 
+h1,h2,h3{
+  color: #b5e64b;
+}
+
 button{
   height: 15%;
   width: 40%;
-  color: white;
-  background-color: #0d6efd;
+  color: black;
+  background-color: #beef4a;
+  outline-color: #beef4a;
 }
 button:hover{
+  outline: auto;
+  outline-width: 4px;
+  outline-color: #beef4a;
   background: transparent;
 }
+
+
 
 #col1,#col2{
   float: left;
   width: 20%;
   padding: 40px;
 }
-#col2{
+
+.bor{
   border-top: 1px solid rgb(83, 255, 57);
+  border-bottom: 1px solid rgb(83, 255, 57);
 }
 
 #example{
-  border-top: 1px solid rgb(83, 255, 57);
   border-left: 1px solid rgb(83, 255, 57);
   padding: 60px;
   padding-top: 80px;
 }
 
-#example .col{
-  border-left:2px solid white;
-  /* border-color: white; */
-  /* border-bottom: 2px; */
-}
 
 hr{
   color:rgb(254, 254, 254);
