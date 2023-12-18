@@ -1,0 +1,56 @@
+div{
+  font-family: sans-serif;
+  margin-top: 20px;
+  margin: 2px;
+  color: white;
+  /* border-style: dotted; */
+}
+
+button{
+  height: 15%;
+  width: 40%;
+  color: white;
+  background-color: #0d6efd;
+}
+button:hover{
+  background: transparent;
+}
+
+#col1,#col2{
+  float: left;
+  width: 20%;
+  padding: 40px;
+}
+#col2{
+  border-top: 1px solid rgb(83, 255, 57);
+}
+
+#example{
+  border-top: 1px solid rgb(83, 255, 57);
+  border-left: 1px solid rgb(83, 255, 57);
+  padding: 60px;
+  padding-top: 80px;
+}
+
+#example .col{
+  border-left:2px solid white;
+  /* border-color: white; */
+  /* border-bottom: 2px; */
+}
+
+hr{
+  color:rgb(254, 254, 254);
+  width:100%;
+  size:10px;
+}
+
+img{
+  margin-left: 10% ;
+}
+
+.new{
+  padding-top: 80px;
+    padding-right: 0%;
+    padding-left: 9%;
+    padding-bottom: 80px;
+}
