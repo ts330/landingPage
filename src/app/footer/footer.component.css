@@ -1,0 +1,18 @@
+button{
+  height: 15%;
+  width: 40%;
+  color: black;
+  background-color: var(--background-teritory);
+  outline-color: var(--background-teritory);
+}
+
+span{
+  font-size: 30px;
+}
+
+.contain{
+  margin: 0px;
+  padding-top: 2%;
+  padding-left: 5%;
+  background-color: var(--background-secondry);
+}

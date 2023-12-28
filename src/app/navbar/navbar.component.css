@@ -1,5 +1,5 @@
 .navbar{
-  background-color:#013d46;
+  background-color:var(--background-primary);
   font-size: 25px;
   color: white;
 }
@@ -26,6 +26,7 @@
 
 }
 
+
 button{
   height: 15%;
   width: 40%;
@@ -33,11 +34,49 @@ button{
   background-color: #beef4a;
   outline-color: #beef4a;
 }
-button:hover{
+
+
+.form-title{
+  color: var(--background-primary);
+  font-size: 40px;
+  text-align: center;
+}
+.form-label{
+  color: var(--background-primary);
+}
+
+.modal-content{
+  background-color: var(--background-teritory);
+}
+
+.btn-close{
+  height: 20px;
+  width: 10px;
+  /* background-color: red; */
+}
+
+.btn-close:hover{
   outline: auto;
   outline-width: 4px;
-  outline-color: #beef4a;
+  outline-color: red;
+  background: red;
+}
+
+#rectangle_btn{
+  /* margin-left: 15%; */
+  height: 60px;
+  width: 40%;
+  color: var(--background-teritory);
+  background-color: var(--background-primary);
+  border: 2px solid var(--background-teritory);
+}
+
+#rectangle_btn:hover{
   background: transparent;
+  outline: auto;
+  outline-color: var(--background-primary);
+  outline-width: 2px;
+  color: var(--background-primary);
 }
 
 /* .navbar-nav{
