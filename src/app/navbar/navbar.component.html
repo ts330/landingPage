@@ -14,13 +14,13 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="/about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Blog</a>
           </li>
           <li class="nav-item">
-            <button type="button" class="btn" style="height:60px; width:190px">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="height:60px; width:190px">
               Try us For free
             </button>
           </li>
@@ -39,3 +39,55 @@
     </div>
   </div>
 </nav>
+
+
+
+
+
+<!-- modal form -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"><div class="form-title">Try Us For Free</div></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <!-- form body -->
+      <form class="row g-3">
+        <div class="col-md-5 ms-3">
+          <label for="inputfirstname" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="inputlastname">
+        </div>
+        <div class="col-md-5 ms-5">
+          <label for="inputlastname" class="form-label">Last Name</label>
+          <input type="password" class="form-control" id="inputlastname">
+        </div>
+        <div class="col-10 ms-3">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-5 ms-3">
+          <label for="inputcompany" class="form-label">Company</label>
+          <input type="text" class="form-control" id="inputcompany" placeholder="">
+        </div>
+        <div class="col-md-5 ms-5">
+          <label for="inputposition" class="form-label">Position</label>
+          <input type="text" class="form-control" id="inputposition">
+        </div>
+        <br><br><br><br>
+        <div class="col-12 m-3">
+          <button type="submit" class="btn" id="rectangle_btn">Get Started</button>
+        </div>
+      </form>
+    </div>
+
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" id="cancel" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Add</button>
+      </div> -->
+    </div>
+  </div>
